@@ -5,7 +5,6 @@ from hotel.models import Info
 from django.utils import timezone
 
 
-
 def index(request):
     return render(request, 'hotel/FrontPage.html')
 
