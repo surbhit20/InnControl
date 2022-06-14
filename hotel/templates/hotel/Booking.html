@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="{% static 'Booking.css' %}">
+</head>
+
+<body>
+    <form action="thank" method="GET">
+        <div>
+            <div id="head">To book your selected room please enter the details below</div><br><br>
+            <div>
+                <label for="first_name">Enter your First Name : </label>
+                <input type="text" name="first_name" id="first_name" placeholder="First Name">
+            </div><br>
+            <div>
+                <label for="first_name">Enter your Last Name : </label>
+                <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+            </div><br>
+            <div>
+                <label for="first_name">Enter your Email Address : </label>
+                <input type="email" name="mail" id="mail" placeholder="Email">
+            </div><br>
+            <div>
+                <label for="first_name">Enter your Phone Number : </label>
+                <input type="number" name="phone" id="phone" placeholder="Phone Number"></div><br><br><br><br>
+
+            <div><button type="submit">Submit</button></div>
+        </div>
+    </form>
+</body>
+
+</html>

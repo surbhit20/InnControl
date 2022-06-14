@@ -1,0 +1,193 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+}
+
+#room1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#room2 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#room3 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#image1 img {
+    width: 35rem;
+    height: 20rem;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 30px;
+}
+
+#image2 img {
+    width: 35rem;
+    height: 20rem;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 30px;
+}
+
+#image3 img {
+    width: 35rem;
+    height: 20rem;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 30px;
+}
+
+#luxury {
+    padding: 2em;
+}
+
+#clubs {
+    padding: 2em;
+}
+
+#grand {
+    padding: 2em;
+}
+
+p {
+    width: 30em;
+}
+
+#money1 {
+    position: relative;
+    bottom: 129px;
+    left: 600px;
+    font-weight: 700;
+}
+
+#money2 {
+    position: relative;
+    bottom: 150px;
+    left: 600px;
+    font-weight: 700;
+}
+
+#money3 {
+    position: relative;
+    bottom: 148px;
+    left: 600px;
+    font-weight: 700;
+}
+
+#area1 {
+    position: relative;
+    left: 40px;
+    font-weight: 600;
+}
+
+#area2 {
+    position: relative;
+    left: 40px;
+    font-weight: 600;
+}
+
+#area3 {
+    position: relative;
+    left: 40px;
+    font-weight: 600;
+}
+
+#wifi1 {
+    position: relative;
+    bottom: 18.5px;
+    left: 240px;
+    font-weight: 600;
+}
+
+#wifi2 {
+    position: relative;
+    bottom: 18.5px;
+    left: 240px;
+    font-weight: 600;
+}
+
+#wifi3 {
+    position: relative;
+    bottom: 18.5px;
+    left: 240px;
+    font-weight: 600;
+}
+
+#guest1 {
+    position: relative;
+    left: 24px;
+    font-weight: 600;
+}
+
+#guest2 {
+    position: relative;
+    left: 24px;
+    font-weight: 600;
+}
+
+#guest3 {
+    position: relative;
+    left: 24px;
+    font-weight: 600;
+}
+
+#bed1 {
+    position: relative;
+    left: 272px;
+    bottom: 19px;
+    font-weight: 600;
+}
+
+#bed2 {
+    position: relative;
+    left: 288px;
+    bottom: 19px;
+    font-weight: 600;
+}
+
+#bed3 {
+    position: relative;
+    left: 288px;
+    bottom: 19px;
+    font-weight: 600;
+}
+
+button {
+    position: relative;
+    left: 595px;
+    bottom: 30px;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+#head1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#header1 {
+    font-size: 1.05em;
+}
+
+#head2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#header2 {
+    font-size: 1.05em;
+}
+
+#head3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#header3 {
+    font-size: 1.05em;
+}

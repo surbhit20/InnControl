@@ -1,0 +1,147 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Hotels & Resorts in India</title>
+    <link rel="stylesheet" href="{% static '/hotel/FrontPage.css' %}">
+</head>
+
+<body>
+    <form action='\rooms' method='GET'>
+        <div id="heading">
+            <h1>
+                Welcome to Star Hotels
+            </h1>
+        </div>
+        <div id="first">
+            Find Booking&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Best Rates Guaranteed &nbsp;&nbsp;&nbsp;&nbsp; Pay At Hotel &nbsp;&nbsp;&nbsp;&nbsp; No Hidden Charges &nbsp;&nbsp;&nbsp;&nbsp; Exclusive Offers &nbsp;&nbsp;&nbsp;&nbsp;
+            Member Rewards
+        </div>
+
+        <div id="top">
+            <u> Our Top Locations</u>
+        </div>
+
+        <div id="mid">
+            <div id="mumbai">
+                <img src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Mumbai/images/3x2/ViewoftheGatewayofIndia-3x2.jpg"><br>
+                <center>Mumbai</center>
+            </div>
+            <div id="goa">
+                <img src="https://www.tajhotels.com/content/dam/thrp/destinations/Goa/16x7intro/E%20X%20O%20T%20I%20C%20A%20-%20Aerial_1.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"><br>
+                <center>Goa</center>
+            </div>
+            <div id="jaipur">
+                <img src="https://www.tajhotels.com/content/dam/thrp/destinations/Jaipur/16x7intro/hawa-mahal-441563.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"><br>
+                <center>Jaipur</center>
+            </div>
+            <div id="kochi">
+                <img src="https://www.tajhotels.com/content/dam/thrp/destinations/Kochi/16x7intro/42-18936323-16X7.jpg/jcr:content/renditions/cq5dam.web.756.756.jpeg"><br>
+                <center>Cochin</center>
+            </div>
+        </div>
+
+        <div id="book"><u>Book Now</u></div>
+        <div id="tables">
+            <div id="hotels">
+                <div>
+                    Hotel or Destination
+                </div>
+                <br>
+                <div>
+                    <select name="hotels" id="hotel-select" required>   
+                 <option value="">Search for Hotels</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Goa">Goa</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Cochin">Cochin</option>
+                </select>
+                </div>
+            </div>
+
+
+            <div id="checkin">
+                <div>
+                    Check-In Date
+                </div>
+                <br>
+                <div>
+                    <input type="date" id="start" name="trip-start" value="" required>
+                </div>
+            </div>
+
+            <div id="checkout">
+                <div>
+                    Check-out Date
+                </div>
+                <br>
+                <div>
+                    <input type="date" id="end" name="trip-end" value="" required>
+                </div>
+            </div>
+
+            <div id="pan">
+                <div>
+                    Pan No.
+                </div>
+                <br>
+                <div>
+                    <input type="password" id="pan" name="pan" required>
+                </div>
+            </div>
+
+            <div id="rooms">
+                <div>
+                    Rooms
+                </div>
+                <br>
+                <div>
+                    <select name="rooms" id="room-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
+            </div>
+
+            <div id="adult">
+                <div>
+                    Adults
+                </div>
+                <br>
+                <div>
+                    <select name="adults" id="adult-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+                </div>
+            </div>
+
+            <div id="child">
+                <div>
+                    Children
+                </div>
+                <div id="but"><button type="submit">Check Availability</button></div>
+
+                <br>
+                <div>
+                    <select name="children" id="children-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            </div>
+            <div >
+            
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+}
+
+#first {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+#top {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2rem;
+}
+
+#mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#mumbai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mumbai img {
+    width: 17rem;
+    height: 17rem;
+    /* border-width: 5px; */
+    /* border-color: brown; */
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#goa img {
+    width: 17rem;
+    height: 17rem;
+    /* border-width: 5px; */
+    /* border-color: brown; */
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#jaipur img {
+    height: 17rem;
+    width: 17rem;
+    /* border-width: 5px; */
+    /* border-color: brown; */
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#kochi img {
+    width: 18rem;
+    height: 17rem;
+    /* border-width: 5px; */
+    /* border-color: brown; */
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#heading {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+#book {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1rem;
+}
+
+#tables {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hotels {
+    display: flex;
+    flex-direction: column;
+}
+
+#but {
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+#children-select {
+    position: relative;
+    bottom: 22.1px;
+}

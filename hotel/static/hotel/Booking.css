@@ -1,0 +1,23 @@
+#head {
+    font-size: 2rem;
+}
+
+#first_name {
+    position: relative;
+    left: 26px;
+}
+
+#last_name {
+    position: relative;
+    left: 28px;
+}
+
+#mail {
+    position: relative;
+    left: 3.75px;
+}
+
+button {
+    position: relative;
+    left: 290px;
+}
