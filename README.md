@@ -1,4 +1,4 @@
-##HotelMaster - A Hotel Management System
+## HotelMaster - A Hotel Management System
 
 The application is designed to help in maintaining a ledger for hotels or resorts. This application's frontend was built using HTML & CSS while the backend was made using Python-based Django framework. The database used for the project was PostGreSQL.
 
